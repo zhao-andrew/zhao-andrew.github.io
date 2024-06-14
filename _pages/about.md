@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Postdoctoral Fellow at Sandia National Labs
+subtitle: Postdoctoral Fellow at Sandia National Laboratories
 
 profile:
   align: right
@@ -17,3 +17,5 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 Quantum information theorist. I am broadly interested in how algorithms (both quantum and classical) can help to solve hard computational problems, simulate complex physical phenomena, and learn about the world around us.
+
+I am currently a <a href ="https://www.sandia.gov/quantum/gil-herrera-postdoctoral-fellowship/">Gil Herrera Postdoctoral Fellow</a> at Sandia National Labs. I received my PhD in physics from the <a href="http://cquic.unm.edu/">University of New Mexico</a>, advised by Akimasa Miyake.

@@ -1,33 +1,54 @@
 ---
 ---
 
+@inproceedings{zhao2025learning,
+    title={Learning the Structure of Any Hamiltonian from Minimal Assumptions},
+    author={Zhao, Andrew},
+    booktitle={Proceedings of the 57th Annual ACM Symposium on Theory of Computing},
+    pages={1201--1211},
+    year={2025},
+    publisher={Association for Computing Machinery},
+    doi={10.1145/3717823.3718115},
+    arxiv={2410.21635},
+    abstract={{We study the problem of learning an unknown quantum many-body Hamiltonian $H$ from black-box queries to its time evolution $e^{-\mathrm{i} H t}$. Prior proposals for solving this task either impose some assumptions on $H$, such as its interaction structure or locality, or otherwise use an exponential amount of computational postprocessing. In this paper, we present algorithms to learn any $n$-qubit Hamiltonian, which do not need to know the Hamiltonian terms in advance, nor are they restricted to local interactions. Our algorithms are efficient as long as the number of terms $m$ is polynomially bounded in the system size $n$. We consider two models of control over the time evolution: the first has access to time reversal ($t < 0$), enabling an algorithm that outputs an $\epsilon$-accurate classical description of $H$ after querying its dynamics for a total of $\widetilde{\mathcal{O}}(m/\epsilon)$ evolution time. The second access model is more conventional, allowing only forward-time evolutions; our algorithm requires $\widetilde{\mathcal{O}}(\|H\|^3/\epsilon^4)$ evolution time in this setting. Central to our results is the recently introduced concept of a pseudo-Choi state of $H$. We extend the utility of this learning resource by showing how to use it to learn the Fourier spectrum of $H$, how to achieve nearly Heisenberg-limited scaling with it, and how to prepare it even under our more restricted access models.}}
+}
+
 @phdthesis{zhao2023learning,
     title={Learning, Optimizing, and Simulating Fermions with Quantum Computers},
     author={Zhao, Andrew},
     school={University of New Mexico},
     year={2023},
     arxiv={2312.10399},
+    url={https://digitalrepository.unm.edu/phyc_etds/319/},
     abstract={{Fermions are fundamental particles which obey seemingly bizarre quantum-mechanical principles, yet constitute all the ordinary matter that we inhabit. As such, their study is heavily motivated from both fundamental and practical incentives. In this dissertation, we will explore how the tools of quantum information and computation can assist us on both of these fronts. We primarily do so through the task of partial state learning: tomographic protocols for acquiring a reduced, but sufficient, classical description of a quantum system. Developing fast methods for partial tomography addresses a critical bottleneck in quantum simulation algorithms, which is a particularly pressing issue for currently available, imperfect quantum machines. At the same time, in the search for such protocols, we also refine our notion of what it means to learn quantum states. One important example is the ability to articulate, from a computational perspective, how the learning of fermions contrasts with other types of particles.
-<br>
-The main results of this dissertation are as follows. First, we introduce a protocol called fermionic classical shadows that efficiently learns all local properties of a many-fermion system. We furthermore show that this protocol is optimal, in the sense that information-theoretic arguments imply matching lower bounds for the fundamental complexity of this learning task. Next, we extend the theory to a noise-robust formulation called symmetry-adjusted classical shadows, which uses symmetry in the quantum system to mitigate errors that occur during the quantum computation. We establish a rigorous theory for this protocol, as well as demonstrate realistic, near-term performance with comprehensive numerical experiments. We then study unitary partitioning, an alternative strategy for easing the measurement complexity of Hamiltonians for interacting electrons. Finally, we draw surprising connections between a hard classical optimization problem, known as the noncommutative Grothendieck problem, and the simulation of fermions. We establish a natural embedding of the classical problem into a fermionic one and provide both theoretical and numerical evidence that quantum computers can provide high-quality solutions over classical approximations through this embedding.}}
+    <br>
+    The main results of this dissertation are as follows. First, we introduce a protocol called fermionic classical shadows that efficiently learns all local properties of a many-fermion system. We furthermore show that this protocol is optimal, in the sense that information-theoretic arguments imply matching lower bounds for the fundamental complexity of this learning task. Next, we extend the theory to a noise-robust formulation called symmetry-adjusted classical shadows, which uses symmetry in the quantum system to mitigate errors that occur during the quantum computation. We establish a rigorous theory for this protocol, as well as demonstrate realistic, near-term performance with comprehensive numerical experiments. We then study unitary partitioning, an alternative strategy for easing the measurement complexity of Hamiltonians for interacting electrons. Finally, we draw surprising connections between a hard classical optimization problem, known as the noncommutative Grothendieck problem, and the simulation of fermions. We establish a natural embedding of the classical problem into a fermionic one and provide both theoretical and numerical evidence that quantum computers can provide high-quality solutions over classical approximations through this embedding.}}
 }
 
-@article{zhao2023group,
+@article{zhao2024group,
     title={Group-theoretic error mitigation enabled by classical shadows and symmetries},
     author={Zhao, Andrew and Miyake, Akimasa},
-    journal={arXiv:2310.03071},
-    year={2023},
+    journal={npj Quantum Information},
+    volume={10},
+    pages={57},
+    year={2024},
+    publisher={Nature Publishing Group UK London},
+    doi={10.1038/s41534-024-00854-5},
     arxiv={2310.03071},
-    abstract={{Estimating expectation values is a key subroutine in many quantum algorithms. However, near-term implementations face two major challenges: a limited number of samples to learn a large collection of observables, and the accumulation of errors in devices without quantum error correction. To address these challenges simultaneously, we develop a quantum error-mitigation strategy which unifies the group-theoretic structure of classical-shadow tomography with symmetries in quantum systems of interest. We refer to our protocol as "symmetry-adjusted classical shadows," as it mitigates errors by adjusting estimators according to how known symmetries are corrupted under those errors. As a concrete example, we highlight global $\mathrm{U}(1)$ symmetry, which manifests in fermions as particle number and in spins as total magnetization, and illustrate their unification with respective classical-shadow protocols. One of our main results establishes rigorous error and sampling bounds under readout errors obeying minimal assumptions. Furthermore, to probe mitigation capabilities against a more comprehensive class of gate-level errors, we perform numerical experiments with a noise model derived from existing quantum processors. Our analytical and numerical results reveal symmetry-adjusted classical shadows as a flexible and low-cost strategy to mitigate errors from noisy quantum experiments in the ubiquitous presence of symmetry.}}
+    abstract={{Estimating expectation values is a key subroutine in quantum algorithms. Near-term implementations face two major challenges: a limited number of samples required to learn a large collection of observables, and the accumulation of errors in devices without quantum error correction. To address these challenges simultaneously, we develop a quantum error-mitigation strategy called symmetry-adjusted classical shadows, by adjusting classical-shadow tomography according to how symmetries are corrupted by device errors. As a concrete example, we highlight global $\mathrm{U}(1)$ symmetry, which manifests in fermions as particle number and in spins as total magnetization, and illustrate their group-theoretic unification with respective classical-shadow protocols. We establish rigorous sampling bounds under readout errors obeying minimal assumptions, and perform numerical experiments with a more comprehensive model of gate-level errors derived from existing quantum processors. Our results reveal symmetry-adjusted classical shadows as a low-cost strategy to mitigate errors from noisy quantum experiments in the ubiquitous presence of symmetry.}}
 }
 
-@article{zhao2023expanding,
+@article{zhao2024expanding,
     title={Expanding the reach of quantum optimization with fermionic embeddings},
     author={Zhao, Andrew and Rubin, Nicholas C},
-    journal={arXiv:2301.01778},
-    year={2023},
+    journal={Quantum},
+    volume={8},
+    pages={1451},
+    year={2024},
+    publisher={Verein zur F{\"o}rderung des Open Access Publizierens in den Quantenwissenschaften},
+    doi={10.22331/q-2024-08-28-1451},
     arxiv={2301.01778},
-    abstract={{Quadratic programming over orthogonal matrices encompasses a broad class of hard optimization problems that do not have an efficient quantum representation. Such problems are instances of the little noncommutative Grothendieck problem (LNCG), a generalization of binary quadratic programs to continuous, noncommutative variables. In this work, we establish a natural embedding for this class of LNCG problems onto a fermionic Hamiltonian, thereby enabling the study of this classical problem with the tools of quantum information. This embedding is accomplished by identifying the orthogonal group with its double cover, which can be represented as fermionic quantum states. Correspondingly, the embedded LNCG Hamiltonian is a two-body fermion model. Determining extremal states of this Hamiltonian provides an outer approximation to the original problem, a quantum analogue to classical semidefinite relaxations. In particular, when optimizing over the special orthogonal group our quantum relaxation obeys additional, powerful constraints based on the convex hull of rotation matrices. The classical size of this convex-hull representation is exponential in matrix dimension, whereas our quantum representation requires only a linear number of qubits. Finally, to project the relaxed solution back into the feasible space, we propose rounding procedures which return orthogonal matrices from appropriate measurements of the quantum state. Through numerical experiments we provide evidence that this rounded quantum relaxation can produce high-quality approximations.}}
+    abstract={{Quadratic programming over orthogonal matrices encompasses a broad class of hard optimization problems that do not have an efficient quantum representation. Such problems are instances of the little noncommutative Grothendieck problem (LNCG), a generalization of binary quadratic programs to continuous, noncommutative variables. In this work, we establish a natural embedding for this class of LNCG problems onto a fermionic Hamiltonian, thereby enabling the study of this classical problem with the tools of quantum information. This embedding is accomplished by a new representation of orthogonal matrices as fermionic quantum states, which we achieve through the well-known double covering of the orthogonal group. Correspondingly, the embedded LNCG Hamiltonian is a two-body fermion model. Determining extremal states of this Hamiltonian provides an outer approximation to the original problem, a quantum analogue to classical semidefinite relaxations. In particular, when optimizing over the special orthogonal group our quantum relaxation obeys additional, powerful constraints based on the convex hull of rotation matrices. The classical size of this convex-hull representation is exponential in matrix dimension, whereas our quantum representation requires only a linear number of qubits. Finally, to project the relaxed solution back into the feasible space, we propose rounding procedures which return orthogonal matrices from appropriate measurements of the quantum state. Through numerical experiments we provide evidence that this rounded quantum relaxation can produce high-quality approximations.}}
 }
 
 @article{babbush2023quantum,
@@ -44,17 +65,16 @@ The main results of this dissertation are as follows. First, we introduce a prot
 }
 
 @article{daniel2022quantum,
-    title = {Quantum computational advantage attested by nonlocal games with the cyclic cluster state},
-    author = {Daniel, Austin K. and Zhu, Yingyue and Alderete, C. Huerta and Buchemmavari, Vikas and Green, Alaina M. and Nguyen, Nhung H. and Thurtell, Tyler G. and Zhao, Andrew and Linke, Norbert M. and Miyake, Akimasa},
-    journal = {Physical Review Research},
-    volume = {4},
-    issue = {3},
-    pages = {033068},
-    numpages = {19},
-    year = {2022},
-    publisher = {American Physical Society},
-    doi = {10.1103/PhysRevResearch.4.033068},
-    url = {https://link.aps.org/doi/10.1103/PhysRevResearch.4.033068},
+    title={Quantum computational advantage attested by nonlocal games with the cyclic cluster state},
+    author={Daniel, Austin K. and Zhu, Yingyue and Alderete, C. Huerta and Buchemmavari, Vikas and Green, Alaina M. and Nguyen, Nhung H. and Thurtell, Tyler G. and Zhao, Andrew and Linke, Norbert M. and Miyake, Akimasa},
+    journal={Physical Review Research},
+    volume={4},
+    issue={3},
+    pages={033068},
+    numpages={19},
+    year={2022},
+    publisher={American Physical Society},
+    doi={10.1103/PhysRevResearch.4.033068},
     arxiv={2110.04277},
     abstract={{We propose a set of Bell-type nonlocal games that can be used to prove an unconditional quantum advantage in an objective and hardware-agnostic manner. In these games, the circuit depth needed to prepare a cyclic cluster state and measure a subset of its Pauli stabilizers on a quantum computer is compared to that of classical Boolean circuits with the same, nearest-neighboring gate connectivity. Using a circuit-based trapped-ion quantum computer, we prepare and measure a six-qubit cyclic cluster state with an overall fidelity of 60.6\% and 66.4\%, before and after correcting for measurement-readout errors, respectively. Our experimental results indicate that while this fidelity readily passes conventional (or depth-0) Bell bounds for local hidden-variable models, it is on the cusp of demonstrating a higher probability of success than what is possible by depth-1 classical circuits. Our games offer a practical and scalable set of quantitative benchmarks for quantum computers in the pre-fault-tolerant regime as the number of qubits available increases.}}
 }

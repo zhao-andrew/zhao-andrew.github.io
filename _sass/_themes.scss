@@ -42,6 +42,20 @@ $type-size-8                : 0.625em;  // ~10px
 $global-font-family         : $sans-serif;
 $header-font-family         : $sans-serif;
 $caption-font-family        : $serif;
+$lowercase-headings         : true;
+
+@if $lowercase-headings {
+  .page__title,
+  .page__content h1,
+  .page__content h2,
+  .page__content h3,
+  .page__content h4,
+  .page__content h5,
+  .page__content h6,
+  .masthead__menu-item:not(.masthead__menu-item--lg) > a {
+    text-transform: lowercase;
+  }
+}
 
 /* ==========================================================================
    Breakpoints

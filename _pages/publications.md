@@ -4,6 +4,9 @@ permalink: /publications/
 author_profile: true
 ---
 
+Publications in reverse chronological order according to preprint date.<br>
+See also: <a href="https://scholar.google.com/citations?user=IAp-1qcAAAAJ">Google Scholar →</a>
+
 <ol reversed>
 
 <li>

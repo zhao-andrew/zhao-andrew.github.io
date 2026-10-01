@@ -6,22 +6,22 @@ Selected Publications
 <ul>
 
 <li>
+  <strong>Polynomial-time classical and quantum simulation of quantum impurity models</strong><br>
+  <em>(alphabetical order)</em> Jiaqing Jiang, Nathan Ju, Ojas Parekh, Chaithanya Rayudu, Andrew Zhao.<br>
+  <em>arXiv:2610.XXXXX</em> (2026).<br>
+  [<a href="https://arxiv.org/abs/2610.XXXXX">arXiv</a>]
+</li>
+
+<li>
   <strong>Lee-Yang theorem for fermions</strong><br>
-  Chaithanya Rayudu, Takahiro Misawa, Andrew Zhao, Jun Takahashi.<br>
+  Chaithanya Rayudu, Takahiro Misawa, <strong>Andrew Zhao</strong>, Jun Takahashi.<br>
   <em>arXiv:2609.23942</em> (2026).<br>
   [<a href="https://arxiv.org/abs/2609.23942">arXiv</a>]
 </li>
 
 <li>
-  <strong>Quantum Solvers for Nonlinear Matrix Equations in Quantum Chemistry</strong><br>
-  Pablo Rodenas-Ruiz, Andrew Zhao, Joonho Lee.<br>
-  <em>arXiv:2605.16189</em> (2026).<br>
-  [<a href="https://arxiv.org/abs/2605.16189">arXiv</a>]
-</li>
-
-<li>
   <strong>Fermionic Insights into Measurement-Based Quantum Computation: Circle Graph States Are Not Universal Resources</strong><br>
-  Brent Harrison, Vishnu Iyer, Ojas Parekh, Kevin Thompson, Andrew Zhao.<br>
+  <em>(alphabetical order)</em> Brent Harrison, Vishnu Iyer, Ojas Parekh, Kevin Thompson, Andrew Zhao.<br>
   <em>arXiv:2510.05557</em> (2025).<br>
   [<a href="https://arxiv.org/abs/2510.05557">arXiv</a>]
     [<a href="https://tqc-conference.org/2026/">TQC</a>]
@@ -38,7 +38,7 @@ Selected Publications
 
 <li>
   <strong>Fermionic partial tomography via classical shadows</strong><br>
-  Andrew Zhao, Nicholas Rubin, Akimasa Miyake.<br>
+  <strong>Andrew Zhao</strong>, Nicholas Rubin, Akimasa Miyake.<br>
   <em>Physical Review Letters 127, 110504</em> (2021).<br>
   [<a href="https://arxiv.org/abs/2010.16094">arXiv</a>]
     [<a href="https://doi.org/10.1103/PhysRevLett.127.110504">DOI</a>]

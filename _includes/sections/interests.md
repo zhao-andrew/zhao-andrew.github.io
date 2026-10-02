@@ -1,4 +1,6 @@
 Research Interests
 ==================
 
-Quantum computation & information theory. I am broadly interested in how algorithms (both quantum and classical) can help to solve hard computational problems, simulate complex physical phenomena, and learn about the world around us.
+I am broadly interested in the theory of quantum computation & information. However, the central thesis driving much of my research is to contribute to an information-theoretic understanding of quantum matter. This is exemplified by many-body systems of fermions: What is the computational power of different fermionic models? Where does fermionic quantum information qualitatively diverge from the usual model of qubits? And what does this theory teach us about the complexity of matter---the electrons and atoms that make up the world around us?[^1]
+
+[^1]: This em dash was human generated.

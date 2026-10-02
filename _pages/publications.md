@@ -4,7 +4,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-In reverse chronological order according to preprint date.<br>
+Papers listed in reverse chronological order according to preprint date.<br>
 See also: <a href="https://scholar.google.com/citations?user=IAp-1qcAAAAJ">Google Scholar →</a>
 
 <ol reversed>
@@ -12,8 +12,8 @@ See also: <a href="https://scholar.google.com/citations?user=IAp-1qcAAAAJ">Googl
 <li>
   <strong>Polynomial-time classical and quantum simulation of quantum impurity models</strong><br>
   <em>(alphabetical order)</em> Jiaqing Jiang, Nathan Ju, Ojas Parekh, Chaithanya Rayudu, Andrew Zhao.<br>
-  <em>arXiv:2610.XXXXX</em> (2026).<br>
-  [<a href="https://arxiv.org/abs/2610.XXXXX">arXiv</a>]
+  <em>arXiv:2610.02167</em> (2026).<br>
+  [<a href="https://arxiv.org/abs/2610.02167">arXiv</a>]
 </li>
 
 <li>

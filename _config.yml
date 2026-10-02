@@ -26,9 +26,9 @@ author:
   avatar           : "prof_pic.jpg"
   name             : "Andrew Zhao"
   pronouns         : # "he/him"  
-  bio              : "Senior Member of Technical Staff"
+  bio              : "Senior Member of Technical Staff at Sandia National Laboratories"
   location         : "Livermore, CA"
-  employer         : "Sandia National Laboratories"
+  employer         : # "Sandia National Laboratories"
   uri              : # URL
   email            : "azhao@sandia.gov" 
 

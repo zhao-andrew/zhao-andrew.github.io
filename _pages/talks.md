@@ -4,7 +4,7 @@ permalink: /talks/
 author_profile: true
 ---
 
-A selection of talks that I have given about my research.<br>
+Selection of talks that I have given about my research.<br>
 <a href="/files/cv_andrew-zhao_quantum.pdf">See CV for full list →</a>
 
 <ul>

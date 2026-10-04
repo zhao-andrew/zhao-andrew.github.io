@@ -33,10 +33,16 @@ Selection of talks that I have given about my research.<br>
 </li>
 
 <li>
+  <strong>Hamiltonian learning: A survey of recent progress</strong><br>
+    <ul>
+      <li>(03/2025) Université de Sherbrooke, IQ Colloquium</li>
+    </ul>
+</li>
+
+<li>
   <strong>Learning the structure of any Hamiltonian from minimal assumptions</strong><br>
     <ul>
       <li>(06/2025) ACM Symposium on Theory of Computing (STOC) [<a href="https://www.youtube.com/watch?v=cSgolQejLAk">video</a>]</li>
-      <li>(03/2025) Université de Sherbrooke, IQ Colloquium</li>
       <li>(02/2025) Quantum Information Processing (QIP) [<a href="https://www.youtube.com/watch?v=bJu_WI2ZUVI">video</a>]</li>
     </ul>
 </li>

@@ -19,7 +19,7 @@ Selection of talks that I have given about my research.<br>
 <li>
   <strong>Quantum solvers for nonlinear matrix equations in quantum chemistry</strong><br>
     <ul>
-      <li>(08/2026) Fields Institute, Symposium on Recent Advances on Quantum Algorithms for Differential Equations [<a href="https://www.youtube.com/watch?v=t3zyiQ2SdZc">video</a>]</li>
+      <li>(08/2026) Fields Institute Symposium on Recent Advances on Quantum Algorithms for Differential Equations [<a href="https://www.youtube.com/watch?v=t3zyiQ2SdZc">video</a>]</li>
     </ul>
 </li>
 

@@ -6,17 +6,17 @@ Selected Publications
 <ul>
 
 <li>
+  <strong>Efficient classical simulation of Fermi-Hubbard models with Kramers symmetry</strong><br>
+  Chaithanya Rayudu, Jun Takahashi, Ojas Parekh, <strong>Andrew Zhao</strong>.<br>
+  <em>arXiv:2611.10039</em> (2026).<br>
+  [<a href="https://arxiv.org/abs/2611.10039">arXiv</a>]
+</li>
+
+<li>
   <strong>Polynomial-time classical and quantum simulation of quantum impurity models</strong><br>
   <em>(alphabetical order)</em> Jiaqing Jiang, Nathan Ju, Ojas Parekh, Chaithanya Rayudu, Andrew Zhao.<br>
   <em>arXiv:2610.02167</em> (2026).<br>
   [<a href="https://arxiv.org/abs/2610.02167">arXiv</a>]
-</li>
-
-<li>
-  <strong>Lee-Yang theorem for fermions</strong><br>
-  Chaithanya Rayudu, Takahiro Misawa, <strong>Andrew Zhao</strong>, Jun Takahashi.<br>
-  <em>arXiv:2609.23942</em> (2026).<br>
-  [<a href="https://arxiv.org/abs/2609.23942">arXiv</a>]
 </li>
 
 <li>

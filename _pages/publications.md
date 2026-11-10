@@ -10,6 +10,20 @@ See also: <a href="https://scholar.google.com/citations?user=IAp-1qcAAAAJ">Googl
 <ol reversed>
 
 <li>
+  <strong>Efficient classical simulation of Fermi-Hubbard models with Kramers symmetry</strong><br>
+  Chaithanya Rayudu, Jun Takahashi, Ojas Parekh, <strong>Andrew Zhao</strong>.<br>
+  <em>arXiv:2611.10039</em> (2026).<br>
+  [<a href="https://arxiv.org/abs/2611.10039">arXiv</a>]
+</li>
+
+<li>
+  <strong>Machine learning quantum data to accelerate quantum Monte Carlo</strong><br>
+  Tong Jiang <em>(equal contribution)</em>, <strong>Andrew Zhao</strong> <em>(equal contribution)</em>, Shashwat Kumar, Jigyasa Nigam, Eliott Rosenberg, Ryan Babbush, Andrew Baczewski, William Huggins, Joonho Lee.<br>
+  <em>arXiv:2611.08151</em> (2026).<br>
+  [<a href="https://arxiv.org/abs/2611.08151">arXiv</a>]
+</li>
+
+<li>
   <strong>Polynomial-time classical and quantum simulation of quantum impurity models</strong><br>
   <em>(alphabetical order)</em> Jiaqing Jiang, Nathan Ju, Ojas Parekh, Chaithanya Rayudu, Andrew Zhao.<br>
   <em>arXiv:2610.02167</em> (2026).<br>
@@ -17,7 +31,7 @@ See also: <a href="https://scholar.google.com/citations?user=IAp-1qcAAAAJ">Googl
 </li>
 
 <li>
-  <strong>Optimal testing of bosonic and fermionic Gaussian states</strong><br>
+  <strong>Optimal testing of fermionic and bosonic Gaussian states</strong><br>
   <em>(alphabetical order)</em> Vishnu Iyer, Bryan O'Gorman, Ojas Parekh, Kevin Thompson, Andrew Zhao.<br>
   <em>arXiv:2609.39113</em> (2026).<br>
   [<a href="https://arxiv.org/abs/2609.39113">arXiv</a>]

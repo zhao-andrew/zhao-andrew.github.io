@@ -12,7 +12,7 @@ Selection of talks that I have given about my research.<br>
 <li>
   <strong>Polynomial-time classical and quantum simulation of quantum impurity models</strong><br>
     <ul>
-      <li>(11/2026) Hon Hai Quantum Computing Seminar</li>
+      <li>(11/2026) Hon Hai Quantum Computing Seminar [<a href="https://www.youtube.com/watch?v=p-nNCmhgbf0">video</a>]</li>
       <li>(09/2026) University of Waterloo, IQC, Gosset Group Meeting</li>
     </ul>
 </li>
